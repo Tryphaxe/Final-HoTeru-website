@@ -1,0 +1,19 @@
+*, body, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/*********** Nouvelles lignes de codes : 13/10/2023****************/
+.display-h{
+    display: none;
+}

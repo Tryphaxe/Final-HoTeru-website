@@ -1,0 +1,27 @@
+*, body, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#carte{
+    border-radius: 15px;
+    margin-top: 20px;
+    min-height: 450px;
+    min-width: max-content;
+    background-color: rgb(219, 219, 219);
+}
+
+@media (min-width: 1200px) and (min-height: 650px) {
+    #carte{
+        min-height: 650px;
+    }
+}

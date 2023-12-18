@@ -1,0 +1,45 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.divi div{
+    max-width: 500px;
+}
+
+.didi{
+    background: linear-gradient(#000000, #550032);
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.didi h3{
+    color: #f1f1f1;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.didi p{
+    color: #f1f1f1;
+}
+
+.didia{
+    padding: 10px 20px;
+    background-color: #ffffff65;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    width: max-content;
+}
+.didia:hover{
+    color: white;
+}

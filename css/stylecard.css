@@ -1,0 +1,158 @@
+/*--------------------------------------------------page acceuil--------------------------------------------------*/
+
+.boxs{
+    height: 100px;
+    width: 1050px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 260px;
+    height: inherit;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#p2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.box section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-left: 10px;
+}
+
+.recent{
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+    width: 1050px;
+    height: 380px;
+}
+
+.recent caption{
+    text-align: start;
+    font-size: 22px;
+    padding: 10px;
+}
+
+/*--------------------------------------------------page utilisateurs--------------------------------------------------*/
+
+#user{
+    align-items: flex-start;
+}
+
+.cube{
+    background: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 5px 0px 10px 0px;
+    padding: 0px 5px 0px 0px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    height: inherit;
+}
+
+.search input[type="text"]{
+    height: inherit;
+    width: 250px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: black;
+    padding-left: 10px;
+    background-color: #7e1f1f2c;
+}
+
+.search input[type="submit"]{
+    height: inherit;
+    width: 100px;
+    border: none;
+    background-color: #550032;
+    color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search input[type="submit"]:hover{
+    border-radius: 10px;
+}
+
+#user table{
+    width: 1050px;
+    height: 430px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+}
+
+#user caption{
+    text-align: start;
+    font-size: 22px;
+    padding: 10px;
+}
+
+/*--------------------------------------------------page utilisateurs--------------------------------------------------*/
+
+#hote{
+    align-items: flex-start;
+}
+
+#hote table{
+    width: 1050px;
+    height: 430px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+}
+
+#hote caption{
+    text-align: start;
+    font-size: 22px;
+    padding: 10px;
+}
+
+#hote a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #ff9677;
+    border-radius:  5px;
+    transition: 0.3s ease-in-out;
+}
+
+#hote a:hover{
+    border-radius: 10px;
+}
+
+#hote a img{
+    margin-right: 10px;
+}
